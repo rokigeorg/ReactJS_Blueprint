@@ -1,0 +1,16 @@
+@import url(normalize.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+
+body {
+  background-color: rgb(22, 22, 26);
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+}
+
+@media only screen and (min-width:70em) {
+  #app-container {
+    width: 60%;
+    margin: auto;
+  }
+}
+
